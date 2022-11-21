@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+
 import PetView from '../../components/petView'
 import services from '../../services';
+
 
 
 function DogDetails({ id }) {

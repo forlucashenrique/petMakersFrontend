@@ -6,7 +6,6 @@ import services from "../../services";
 import Message from "../../components/message";
 
 export async function getServerSideProps() {
-  
   try {
     const res = await services.api.get('/dogs');
     const dogs = res.data;
@@ -17,12 +16,14 @@ export async function getServerSideProps() {
   } catch (err) {
     console.log(err);
   }
-    
+  
   
 }
 
 export default function Dogs({dogs}) {
-
+  
+  const url = process.env.API_URL
+  console.log(url);
   
   return (
     <Layout>
