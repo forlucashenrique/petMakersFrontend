@@ -221,7 +221,7 @@ export default function Form() {
               name="ownerTelNumber"
               placeholder="TELEFONE DO PROPRIETÁRIO"
               className="p-2 w-60 text-xs  text-sky-700  border-b-2 font-bold border-sky-700 outline-none placeholder:text-sky-700 placeholder:italic placeholder:font-normal mb-8"
-            />;
+            />
 
           </div>
           <div>

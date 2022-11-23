@@ -245,7 +245,7 @@ export default function PetView({ petFields }) {
                   disabled={isInputDisabled}
                   placeholder="TELEFONE DO PROPRIETÁRIO"
                   className={styles.inputStyle}
-                />;
+                />
               </div>
               <div>
                 <div className='w-60 flex justify-between'>
